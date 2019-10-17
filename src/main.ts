@@ -2,7 +2,7 @@ import {app} from './app';
 import * as http from 'http';
 
 
-const PORT = 8080;
+const PORT = 8006;
 const server = http.createServer(app);
 
 server.listen(PORT);
